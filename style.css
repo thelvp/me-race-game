@@ -1,0 +1,81 @@
+/* Fonts */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+/* General */
+
+body {
+  line-height: 1.6;
+  font-family: "Patrick Hand SC", "arial", cursive, sans-serif;
+  font-size: x-large;
+}
+
+/* Table */
+
+table {
+  display: flex;
+  justify-content:space-around;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+tr, td {
+  border: 2px solid rgb(200, 195, 195);
+  background: linear-gradient(#a7d5eb, #cef0e6);
+}
+
+/* Tracks  */
+
+.racer-table td {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.racer-table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.finish {
+  background-image: url("images/One_Ring.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: cover;
+}
+
+#player1-race td.active {
+  background-image: url("images/gandalf.png");
+}
+
+#player2-race td.active {
+  background-image: url("images/gollum.png");
+}
+
+/* Footer / socials list  */
+
+.footer {
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  padding: 20px 0;
+}
+
+.list-inline {
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.fa-brands {
+  font-size: 30px;
+  color: #a7d5eb;
+}
+
+.fa-brands:hover {
+  color: #b6941c;
+}
